@@ -4,7 +4,7 @@
   "description": "React scaffolding",
   "main": "index.html",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --host 0.0.0.0 --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
